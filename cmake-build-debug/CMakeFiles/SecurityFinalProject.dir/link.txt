@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SecurityFinalProject.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\SecurityFinalProject.dir/objects.a @CMakeFiles\SecurityFinalProject.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\SecurityFinalProject.dir/objects.a -Wl,--no-whole-archive -o SecurityFinalProject.exe -Wl,--out-implib,libSecurityFinalProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SecurityFinalProject.dir\linklibs.rsp
