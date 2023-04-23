@@ -3,4 +3,4 @@ project(SecurityFinalProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SecurityFinalProject main.cpp ui.cpp ui.h)
+add_executable(SecurityFinalProject main.cpp)

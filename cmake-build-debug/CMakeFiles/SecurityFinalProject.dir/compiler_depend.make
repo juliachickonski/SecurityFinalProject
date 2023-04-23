@@ -136,8 +136,7 @@ CMakeFiles/SecurityFinalProject.dir/main.cpp.obj: ../main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h \
-  ../ui.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_relops.h
 
 CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj: ../ui.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
@@ -557,8 +556,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/array:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility:
-
-../ui.h:
 
 ../ui.cpp:
 

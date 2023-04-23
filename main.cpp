@@ -66,7 +66,7 @@ void menu_output(){
     food_price price{};
     menu.push_back(price);
 
-    for (const auto f : menu) {
+    for (const auto& f : menu) {
         std::cout << "\nHere is our menu: \n1. " << f.burger << f.burger_price << "\n2. " << f.veggie_burger << f.veggie_price << "\n3. " << f.hotdog << f.hotdog_price << "\n4. " << f.mozz_sticks << f.mozz_price << "\n5. " << f.quesadillas << f.quesadillas_price << "\n6. " << f.bagel << f.bagel_price << "\n7. " << f.grilled_cheese << f.grilled_cheese_price << "\n8. " << f.soup_of_day << f.soup_price << "\n9. " << f.house_salad << f.house_salad_price << "\n10. " << f.chx_wrap << f.chx_wrap_price << "\n11. " << f.drink_cup << f.drink_price << "\n\n";
     }
 }
@@ -88,7 +88,7 @@ int get_verified_choice() {
 double ask_discount(){
     // asks users if they qualify for any discounts
     int user_choice;
-    double discount;
+    double discount = 0;
     const std::array<std::string,5> possible_discount = {"Senior", "Preferred Member", "Educator", "Veteran", "No"};
 
     cout << "Do you qualify for any of the following discounts: ";
@@ -121,7 +121,6 @@ int main() {
     cout << "Welcome to Jay's Eatery!";
     menu_output();
 
-    //menu = get_lines("menu.csv");
     double subtotal = 0.0;
 
     // do while takes users order while the exit statement returns false
