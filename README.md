@@ -5,11 +5,11 @@ Within the app, the user can browse the menu and place their order.
 Allows the restaurant to set up a station for people to order without having to talk to an employee. 
 
 ## **Features**
-Browse menus from different restaurants
+Browse the menu from the restaurant
 
 Place orders and pay online
 
-User authentication and authorization
+User authentication and authorization for reward points 
 
 ## **Technologies**
 
