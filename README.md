@@ -1,5 +1,4 @@
-# SecurityFinalProject
-**Food Ordering App**
+#**Food Ordering App**
 This is a simple food ordering app that allows users to order food from their favorite restaurants. With this app, users can easily browse menus, place orders, and track their delivery status.
 
 Features
