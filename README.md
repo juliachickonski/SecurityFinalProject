@@ -13,22 +13,11 @@ User authentication and authorization for reward points
 
 ## **Technologies**
 
-Backend: 
-
-Frontend: 
-
-Database: 
 
 ## **Installation**
 
 ## **Usage**
-Open the app in your web browser: http://localhost:3000
 
-Sign up for a new account or log in if you already have one
-
-Browse menus from different restaurants
-
-Add items to your cart and place an order
 
 ## **Credits**
 This app was developed by Julia Chickonski as a final project for their Computer Security class. 
