@@ -11,7 +11,7 @@ struct food_price {
     double burger_price = 9.97;
     string veggie_burger = "Vegetarian Burger $";
     double veggie_price = 9.96;
-    string hotdog = "Hotdog and Fries $";
+    string hotdog = "Hot Dog and Fries $";
     double hotdog_price = 6.69;
     string mozz_sticks = "Mozzarella Sticks and Marinara $";
     double mozz_price = 4.32;
@@ -102,10 +102,10 @@ double ask_discount(){
         case 0: cout << "Thank you! a 5% discount will be taken from your total";
             discount = 0.05;
             break;
-        case 1: cout << "Thank you for being a Preferred Member. You will recieve 8% off your order.";
+        case 1: cout << "Thank you for being a Preferred Member. You will receive 8% off your order.";
             discount = 0.08;
             break;
-        case 2: cout << "Thank you for educating. You will recieve a 2.5% Discount.";
+        case 2: cout << "Thank you for educating. You will receive a 2.5% Discount.";
             discount = 0.025;
             break;
         case 3: cout << "Thank you for your service. A 4% Discount will be taken off your order.";
@@ -214,7 +214,7 @@ int main() {
 
     double payment_amount;
     bool pay = true;
-    while (pay == true){
+    while (pay){
         //determines if user has paid the right ammount for their food
         cout << "\n\nPlease enter payment amount: $";
         cin >> payment_amount;

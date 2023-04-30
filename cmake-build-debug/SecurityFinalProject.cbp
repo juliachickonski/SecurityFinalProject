@@ -80,13 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/julia/CLionProjects/SecurityFinalProject/LoginSystem.cpp">
+			<Option target="SecurityFinalProject"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/CLionProjects/SecurityFinalProject/LoginSystem.h">
+			<Option target="SecurityFinalProject"/>
+		</Unit>
 		<Unit filename="C:/Users/julia/CLionProjects/SecurityFinalProject/main.cpp">
-			<Option target="SecurityFinalProject"/>
-		</Unit>
-		<Unit filename="C:/Users/julia/CLionProjects/SecurityFinalProject/ui.cpp">
-			<Option target="SecurityFinalProject"/>
-		</Unit>
-		<Unit filename="C:/Users/julia/CLionProjects/SecurityFinalProject/ui.h">
 			<Option target="SecurityFinalProject"/>
 		</Unit>
 		<Unit filename="C:/Users/julia/CLionProjects/SecurityFinalProject/CMakeLists.txt">

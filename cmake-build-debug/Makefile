@@ -128,6 +128,30 @@ SecurityFinalProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/build
 .PHONY : SecurityFinalProject/fast
 
+LoginSystem.obj: LoginSystem.cpp.obj
+.PHONY : LoginSystem.obj
+
+# target to build an object file
+LoginSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj
+.PHONY : LoginSystem.cpp.obj
+
+LoginSystem.i: LoginSystem.cpp.i
+.PHONY : LoginSystem.i
+
+# target to preprocess a source file
+LoginSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.i
+.PHONY : LoginSystem.cpp.i
+
+LoginSystem.s: LoginSystem.cpp.s
+.PHONY : LoginSystem.s
+
+# target to generate assembly for a file
+LoginSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.s
+.PHONY : LoginSystem.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,30 +176,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-ui.obj: ui.cpp.obj
-.PHONY : ui.obj
-
-# target to build an object file
-ui.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj
-.PHONY : ui.cpp.obj
-
-ui.i: ui.cpp.i
-.PHONY : ui.i
-
-# target to preprocess a source file
-ui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/ui.cpp.i
-.PHONY : ui.cpp.i
-
-ui.s: ui.cpp.s
-.PHONY : ui.s
-
-# target to generate assembly for a file
-ui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SecurityFinalProject.dir\build.make CMakeFiles/SecurityFinalProject.dir/ui.cpp.s
-.PHONY : ui.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SecurityFinalProject
+	@echo ... LoginSystem.obj
+	@echo ... LoginSystem.i
+	@echo ... LoginSystem.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... ui.obj
-	@echo ... ui.i
-	@echo ... ui.s
 .PHONY : help
 
 

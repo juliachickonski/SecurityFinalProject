@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/julia/CLionProjects/SecurityFinalProject/LoginSystem.cpp" "CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj" "gcc" "CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj.d"
   "C:/Users/julia/CLionProjects/SecurityFinalProject/main.cpp" "CMakeFiles/SecurityFinalProject.dir/main.cpp.obj" "gcc" "CMakeFiles/SecurityFinalProject.dir/main.cpp.obj.d"
-  "C:/Users/julia/CLionProjects/SecurityFinalProject/ui.cpp" "CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj" "gcc" "CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj.d"
   )
 
 # Targets to which this target links.

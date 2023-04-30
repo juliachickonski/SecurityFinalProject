@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj"
+  "CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj.d"
   "CMakeFiles/SecurityFinalProject.dir/main.cpp.obj"
   "CMakeFiles/SecurityFinalProject.dir/main.cpp.obj.d"
-  "CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj"
-  "CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj.d"
   "SecurityFinalProject.exe"
   "SecurityFinalProject.exe.manifest"
   "SecurityFinalProject.pdb"

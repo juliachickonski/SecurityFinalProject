@@ -82,30 +82,30 @@ CMakeFiles/SecurityFinalProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SecurityFinalProject.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\julia\CLionProjects\SecurityFinalProject\main.cpp -o CMakeFiles\SecurityFinalProject.dir\main.cpp.s
 
-CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj: CMakeFiles/SecurityFinalProject.dir/flags.make
-CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj: ../ui.cpp
-CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj: CMakeFiles/SecurityFinalProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\CLionProjects\SecurityFinalProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj -MF CMakeFiles\SecurityFinalProject.dir\ui.cpp.obj.d -o CMakeFiles\SecurityFinalProject.dir\ui.cpp.obj -c C:\Users\julia\CLionProjects\SecurityFinalProject\ui.cpp
+CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj: CMakeFiles/SecurityFinalProject.dir/flags.make
+CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj: ../LoginSystem.cpp
+CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj: CMakeFiles/SecurityFinalProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\CLionProjects\SecurityFinalProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj -MF CMakeFiles\SecurityFinalProject.dir\LoginSystem.cpp.obj.d -o CMakeFiles\SecurityFinalProject.dir\LoginSystem.cpp.obj -c C:\Users\julia\CLionProjects\SecurityFinalProject\LoginSystem.cpp
 
-CMakeFiles/SecurityFinalProject.dir/ui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SecurityFinalProject.dir/ui.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\julia\CLionProjects\SecurityFinalProject\ui.cpp > CMakeFiles\SecurityFinalProject.dir\ui.cpp.i
+CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\julia\CLionProjects\SecurityFinalProject\LoginSystem.cpp > CMakeFiles\SecurityFinalProject.dir\LoginSystem.cpp.i
 
-CMakeFiles/SecurityFinalProject.dir/ui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SecurityFinalProject.dir/ui.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\julia\CLionProjects\SecurityFinalProject\ui.cpp -o CMakeFiles\SecurityFinalProject.dir\ui.cpp.s
+CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\julia\CLionProjects\SecurityFinalProject\LoginSystem.cpp -o CMakeFiles\SecurityFinalProject.dir\LoginSystem.cpp.s
 
 # Object files for target SecurityFinalProject
 SecurityFinalProject_OBJECTS = \
 "CMakeFiles/SecurityFinalProject.dir/main.cpp.obj" \
-"CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj"
+"CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj"
 
 # External object files for target SecurityFinalProject
 SecurityFinalProject_EXTERNAL_OBJECTS =
 
 SecurityFinalProject.exe: CMakeFiles/SecurityFinalProject.dir/main.cpp.obj
-SecurityFinalProject.exe: CMakeFiles/SecurityFinalProject.dir/ui.cpp.obj
+SecurityFinalProject.exe: CMakeFiles/SecurityFinalProject.dir/LoginSystem.cpp.obj
 SecurityFinalProject.exe: CMakeFiles/SecurityFinalProject.dir/build.make
 SecurityFinalProject.exe: CMakeFiles/SecurityFinalProject.dir/linklibs.rsp
 SecurityFinalProject.exe: CMakeFiles/SecurityFinalProject.dir/objects1.rsp
