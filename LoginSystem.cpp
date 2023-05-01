@@ -23,14 +23,32 @@ std::vector<string> LoginSystem::getFile() {
     return line;
 }
 
-void LoginSystem::create_account() {return;}
+void LoginSystem::create_account() {  //https://www.codespeedy.com/add-a-new-line-to-text-file-in-cpp/
+    std::ofstream foutput;
+    std::ifstream finput;
+    finput.open ("userInfo.txt");
+    foutput.open ("userInfo.txt",std::ios::app);
+
+    if(finput.is_open()){
+        string username;
+        string password;
+        cout << "Enter your email address: ";
+        cin >> username;
+        foutput<< std::endl << username;
+        cout << "Enter your password: ";
+        cin >> password;
+        foutput<< std::endl << password;
+    }
+
+    finput.close();
+    foutput.close();
+}
 
 bool LoginSystem::verify_user(){
     std::vector<string> line = getFile();
-    for (int j = 0; j < line.size();j++){cout<<"\n"<<line[j];}
     cout << "\nUsername:  ";
     cin >> email_input;
-    cout << "Password:  ";
+    cout << "Password(case-sensitive):  ";
     cin >> password_input;
 
     bool valid;
@@ -65,7 +83,7 @@ void LoginSystem::login() {
             verify_user();
             break;
         case 2:
-            //create_account();
+            create_account();
             break;
         case 3:
             break;
