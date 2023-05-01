@@ -34,6 +34,16 @@ void LoginSystem::create_account() {  //https://www.codespeedy.com/add-a-new-lin
         string password;
         cout << "Enter your email address: ";
         cin >> username;
+
+        std::vector<string> line = getFile();
+        for(int i = 0; i < line.size();i++){ // tells user if an email account already exist
+            if (line[i] == username){
+                cout << "\nLooks like you already have an account! Let me redirect you to the login page.";
+                verify_user();
+                return;
+            }
+        }
+
         foutput<< std::endl << username;
         cout << "Enter your password: ";
         cin >> password;
@@ -46,7 +56,7 @@ void LoginSystem::create_account() {  //https://www.codespeedy.com/add-a-new-lin
 
 bool LoginSystem::verify_user(){
     std::vector<string> line = getFile();
-    cout << "\nUsername:  ";
+    cout << "\nEmail:  ";
     cin >> email_input;
     cout << "Password(case-sensitive):  ";
     cin >> password_input;
