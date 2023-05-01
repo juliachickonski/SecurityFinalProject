@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <array>
+#include "LoginSystem.h"
 
 using std::cin;
 using std::cout;
@@ -48,13 +49,13 @@ struct order {
 bool check_for_exit() {
     // Ask if they want to leave and leave on "n"
     // Returns true if they want to exit, false if still want to continue
-    std::string leave = "n";
+    std::string leave;
     std::cout << "\nDo you have more to your order? ";
     std::cin >> leave;
     if (leave[0] == 'n' || leave[0] == 'N') {
-        return true;
+        return false;
     }
-    return false;
+    return true;
 }
 
 // creates vectors for the menu and users order
@@ -118,7 +119,11 @@ double ask_discount(){
 
 int main() {
     // program to display menu, take a users order, and take the users paymenet
+    LoginSystem login;
+    login.login();
+
     cout << "Welcome to Jay's Eatery!";
+
     menu_output();
 
     double subtotal = 0.0;
@@ -128,7 +133,7 @@ int main() {
         order items{};
         food_price price{};
 
-        cout << "What would you like to order? (1-11) [ ]\b\b";
+        cout << "What would you like to order? (1-11) [ ]";
 
         int user_choice = get_verified_choice();
         if (user_choice < 0) {
