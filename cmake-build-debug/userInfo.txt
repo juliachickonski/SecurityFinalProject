@@ -1,0 +1,8 @@
+john@email.com
+password
+alice@email.com
+pass1
+jojo@email.com
+eggsalad
+jay@email.com
+pa33w0rd
